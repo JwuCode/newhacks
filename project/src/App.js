@@ -1,25 +1,33 @@
 import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react';
+
 
 function App() {
+
+function fetchArticle() {
+  fetch('https://en.wikipedia.org/api/rest_v1/page/random/title')
+        .then(response => response.json())
+        .then((data) => {
+          setInfo(data);
+          console.log(data);
+       })
+}
+
+
+const [data, setInfo] = useState();
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <p>penis</p>
+    <button onClick={fetchArticle}>get article</button>
+
+        
       </header>
     </div>
   );
 }
+
 
 export default App;
