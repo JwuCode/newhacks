@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
+import { Button } from '@mui/material';
 
 
 function App() {
@@ -23,11 +24,11 @@ const [data, setInfo] = useState();
     <p>placeholder</p>
     <button onClick={fetchArticle}>get article</button>
 
+
         
       </header>
     </div>
   );
 }
-
 
 export default App;
