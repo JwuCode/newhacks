@@ -20,7 +20,7 @@ const [data, setInfo] = useState();
   return (
     <div className="App">
       <header className="App-header">
-    <p>penis</p>
+    <p>placeholder</p>
     <button onClick={fetchArticle}>get article</button>
 
         
