@@ -42,6 +42,8 @@ function App() {
     console.log(averageViews)
   }
 
+  
+
   return (
     <div className="App">
       <header className="App-header">
