@@ -3,7 +3,7 @@ Devpost Link: https://devpost.com/software/wackipedia-eqnr8t
 
 A website developed for learning new things!
 
-Just click the "Generate" button once to be directed to a Wikipedia article with less than 10 weekly viewers. This website is guaranteed to make you the best at trivia:
+Just click the "Generate" button once to be directed to a Wikipedia article with less than 10 weekly viewers. This website is guaranteed to make you the best at obscure trivia.
   
 ### Examples:
   
